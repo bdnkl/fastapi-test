@@ -7,6 +7,7 @@ from matplotlib.figure import Figure
 from uvicorn import Server, Config
 import matplotlib.pyplot as plt
 
+
 app = FastAPI()
 
 @app.get('/')
