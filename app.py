@@ -25,6 +25,6 @@ async def get_plot():
 
 
 if __name__ == '__main__':
-    config = Config(app, timeout_keep_alive=1)
+    config = Config(app, timeout_keep_alive=1, hostname='0.0.0.0', port=5000)
     server = Server(config)
     server.run()
