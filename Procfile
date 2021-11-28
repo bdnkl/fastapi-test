@@ -1,1 +1,1 @@
-web: pipenv run uvicorn app:app  --host 0.0.0.0 --port 443
+web: pipenv run uvicorn app:app  --host 0.0.0.0 --port $PORT
