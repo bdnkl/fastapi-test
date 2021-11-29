@@ -25,7 +25,6 @@ jobs:
       run: |
         pip install pipenv
         pipenv install
-        pipenv install pytest
     - name: Test
       run: |
         pipenv run pytest
